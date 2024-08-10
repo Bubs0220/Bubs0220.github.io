@@ -72,11 +72,12 @@ body{
     font-family: var(--font-migra);
 }
 .subtitle{
-    font-family: var(--font-migra);
-    margin-top: 25%;
-    margin-left: -6%;
+    top: 80%;
+    left: 5%;
     position: absolute;
-    transform: rotate(90deg)
+    font-size: 1.5rem;
+    font-family: var(--font-migra);
+    transform: rotate(90deg);
 }
 .image{
     margin-left: 5rem;
@@ -105,7 +106,7 @@ body{
     width: 20%;
     padding: 5px;
 }
-@media (width < 750px){
+@media (width < 950px){
     .section_container{
         padding: 1rem 1rem 1rem 1rem;
         text-align: center;
@@ -144,15 +145,50 @@ body{
         font-family: var(--font-migra);
     }
     .subtitle{
-        font-family: var(--font-migra);
-        font-size: .8rem;
-        margin-top: 200%;
-        margin-left: -18%;
+        top: 80%;
+        left: -5%;
         position: absolute;
-        transform: rotate(90deg)
+        font-size: .8rem;
+        font-family: var(--font-migra);
+        transform: rotate(90deg);
     }
     .image{
-        margin-left: 10rem;
+        margin-left: 50%;
+    }
+    .front_1{
+        float: left;
+        width: 20%;
+        padding: 5px;
+        margin-top: 50%;
+    }
+    .front_2{
+        float: left;
+        width: 20%;
+        padding: 5px;
+        margin-top: 20%;
+    }
+    .front_3{
+        float: left;
+        width: 20%;
+        padding: 5px;
+        margin-top: 40%;
+    }
+    .front_4{
+        display: none;
+    }
+
+}
+@media (width < 650px){
+    .subtitle{
+        top: 80%;
+        left: -15%;
+        position: absolute;
+        font-size: .8rem;
+        font-family: var(--font-migra);
+        transform: rotate(90deg);
+    }
+    .image{
+        margin-left: 30%;
     }
     .front_1{
         float: left;
@@ -172,8 +208,4 @@ body{
         padding: 5px;
         margin-top: 40%;
     }
-    .front_4{
-        display: none;
-    }
-
 }
