@@ -72,7 +72,7 @@ body{
     font-family: var(--font-migra);
 }
 .subtitle{
-    top: 80%;
+    top: 75%;
     left: 5%;
     position: absolute;
     font-size: 1.5rem;
@@ -105,107 +105,4 @@ body{
     float: left;
     width: 20%;
     padding: 5px;
-}
-@media (width < 950px){
-    .section_container{
-        padding: 1rem 1rem 1rem 1rem;
-        text-align: center;
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .year{
-        top: 2rem;
-        position: absolute;
-        font-size: .8rem;
-        font-family: var(--font-migra);
-    }
-    .vl{
-        top: 20%;
-        border-left: 3px solid ;
-        height: 12%;
-        position: absolute;
-        margin-left: 15%;
-    }
-    .title{
-        font-size: 2rem;
-        font-weight:500;
-        line-height: 3rem;
-        color: var(--text-dark);
-        margin-bottom: .5rem;
-        margin-left: .1rem;
-    }
-    .title span{
-        font-weight: 600;
-    }
-    .name{
-        font-size: 1rem;
-        margin-top: -1rem;
-        color: var(--text-light);
-        margin-bottom: 2rem;
-        margin-left: .1rem;
-        font-family: var(--font-migra);
-    }
-    .subtitle{
-        top: 80%;
-        left: -5%;
-        position: absolute;
-        font-size: .8rem;
-        font-family: var(--font-migra);
-        transform: rotate(90deg);
-    }
-    .image{
-        margin-left: 50%;
-    }
-    .front_1{
-        float: left;
-        width: 20%;
-        padding: 5px;
-        margin-top: 50%;
-    }
-    .front_2{
-        float: left;
-        width: 20%;
-        padding: 5px;
-        margin-top: 20%;
-    }
-    .front_3{
-        float: left;
-        width: 20%;
-        padding: 5px;
-        margin-top: 40%;
-    }
-    .front_4{
-        display: none;
-    }
-
-}
-@media (width < 650px){
-    .subtitle{
-        top: 80%;
-        left: -15%;
-        position: absolute;
-        font-size: .8rem;
-        font-family: var(--font-migra);
-        transform: rotate(90deg);
-    }
-    .image{
-        margin-left: 30%;
-    }
-    .front_1{
-        float: left;
-        width: 30%;
-        padding: 5px;
-        margin-top: 50%;
-    }
-    .front_2{
-        float: left;
-        width: 30%;
-        padding: 5px;
-        margin-top: 20%;
-    }
-    .front_3{
-        float: left;
-        width: 30%;
-        padding: 5px;
-        margin-top: 40%;
-    }
 }
